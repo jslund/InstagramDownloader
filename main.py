@@ -15,8 +15,8 @@ def generate_hashtag(insta, hashtag_to_search):
 
 
 def main():
-    USER = "chopchopchope"
-    hashtag_to_search = "shiba"
+    USER = ""
+    hashtag_to_search = ""
     follower_threshold = 0.1
     rabbitmq_host = 'host.docker.internal'
     rabbitmq_queue_name = 'instagram_pictures'
